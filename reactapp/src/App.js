@@ -38,55 +38,57 @@ function App() {
     },
     {
       key:3,
-      question:'Who color is the sky ?',
+      question:'Who is the father of the nation ?',
       //correctAnswerMarkUpdate,
       //attempt,
       options : {
-        option1: 'Blue',
-        option2: 'Red',
-        option3: 'Yellow',
-        option4: 'Green'
+        option1: 'Mahatma Gandhi',
+        option2: 'Jawaharlal Nehru',
+        option3: 'Donald Trump',
+        option4: 'Barrack Obama'
       },
-      answer : 'Blue'
+      answer : 'Mahatma Gandhi'
     },
     {
       key:4,
-      question:'Who color is the sky ?',
+      question:'Who is the father of the nation ?',
       //correctAnswerMarkUpdate,
       //attempt,
       options : {
-        option1: 'Blue',
-        option2: 'Red',
-        option3: 'Yellow',
-        option4: 'Green'
+        option1: 'Mahatma Gandhi',
+        option2: 'Jawaharlal Nehru',
+        option3: 'Donald Trump',
+        option4: 'Barrack Obama'
       },
-      answer : 'Blue'
+      answer : 'Mahatma Gandhi'
     },
-
     {
       key:5,
-      question:'Who color is the fire ?',
+      question:'Who is the father of the nation ?',
       //correctAnswerMarkUpdate,
       //attempt,
       options : {
-        option1: 'Blue',
-        option2: 'Red',
-        option3: 'Yellow',
-        option4: 'Green'
+        option1: 'Mahatma Gandhi',
+        option2: 'Jawaharlal Nehru',
+        option3: 'Donald Trump',
+        option4: 'Barrack Obama'
       },
-      answer : 'Red'
+      answer : 'Mahatma Gandhi'
     },
+
   ]
   const [startFlag, setStartFlag] = useState(false);
   const [resultFlag, setResultFlag] = useState(false);
   const [buttonText, setButtonText] = useState('Start Quiz');
   const [questionsCorrect, setQuestionsCorrect] = useState(0);
   const [answered, setAnswered] = useState(0);
+
   function handleStart()
   {
     setStartFlag(true);
     setButtonText('Started');
   }
+
   if(startFlag)
   {
     qCards = 

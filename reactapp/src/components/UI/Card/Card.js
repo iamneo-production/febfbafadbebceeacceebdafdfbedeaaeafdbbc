@@ -25,4 +25,5 @@ const Card = ({key,
             </div>
         )
     }
-export default Card;
+
+    export default Card;
